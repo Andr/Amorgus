@@ -1,3 +1,24 @@
+html{
+    height: 100%;
+    width: 100%;
+}
 body{
-    background-color: aliceblue;
+    height: 100%;
+    background-color: black;
+    color: white;
+}
+div{
+    width: 20%;
+    background-color: thistle;
+    display: inline-block;
+}
+#center{
+    width: 60%;
+    background-color: red;
+    text-align:center;
+}
+img{
+    height:inherit;
+    width: fit-content;
+    position: relative;
 }
