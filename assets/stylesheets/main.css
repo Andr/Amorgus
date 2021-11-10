@@ -8,17 +8,28 @@ body{
     color: white;
 }
 div{
-    width: 20%;
-    background-color: thistle;
-    display: inline-block;
-}
-#center{
     width: 60%;
-    background-color: red;
-    text-align:center;
+    height: 100%;
+    background-image: url('../Background.png');
+    margin: auto;
+    padding: 10px;
+    border:3px solid green;
+    background-repeat: no-repeat;
 }
 img{
     height:inherit;
     width: fit-content;
     position: relative;
+}
+a{
+    background-color: royalblue;
+    padding: 30px 20px;
+    border: 5px solid cornflowerblue;
+    border-radius: 20%;
+    position: relative;
+    top: 50%;
+    font-family:"Amatic SC";
+    font-size: 300%;
+    font-weight:100;
+    color:black;
 }
